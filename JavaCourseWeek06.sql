@@ -6,7 +6,7 @@ CREATE TABLE `commodity`  (
   PRIMARY KEY (`id`)
 );
 
-CREATE TABLE `order`  (
+CREATE TABLE `orders`  (
   `id` int NOT NULL,
   `order_no` varchar(40) NULL COMMENT '订单编号',
   `user_id` int NULL COMMENT '用户id',
